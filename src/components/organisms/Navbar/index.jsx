@@ -49,9 +49,9 @@ function Navbar() {
               </Link>
             </li>
             <li className="nav__list--item">
-              <a className="nav__list--link" href="#">
+              <Link className="nav__list--link" to="/recipes">
                 Recipes
-              </a>
+              </Link>
             </li>
             <li className="nav__list--item">
               <Link className="nav__list--link" to="/blog">
