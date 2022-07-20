@@ -1,9 +1,7 @@
 @use "/public/styles/variables" as *;
 
-.recipePage {
-  &__header {
-    font-family: $inter;
-  }
+.recipeHeader {
+  font-family: $inter;
 
   &__title {
     font-size: 4.5rem;

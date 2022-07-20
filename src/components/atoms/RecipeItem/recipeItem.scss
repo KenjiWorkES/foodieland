@@ -1,6 +1,6 @@
 @use "/public/styles/variables" as *;
 
-.recipePage {
+.recipeHeader {
   &__item {
     &:not(:last-child) {
       border-right: 1px solid rgba($colorDark, 0.1);

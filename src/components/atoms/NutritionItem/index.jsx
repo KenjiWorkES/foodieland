@@ -1,8 +1,10 @@
+import "./nutritionItem.scss";
+
 const NutritionItem = ({ label, value }) => {
   return (
-    <li className="recipePage__nutritionItem">
-      <p className="recipePage__nutritionLabel">{label}</p>
-      <p className="recipePage__nutritionValue">{value}</p>
+    <li className="nutrition__item">
+      <p className="nutrition__label">{label}</p>
+      <p className="nutrition__value">{value}</p>
     </li>
   );
 };

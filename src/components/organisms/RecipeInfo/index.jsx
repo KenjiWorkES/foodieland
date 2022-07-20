@@ -1,17 +1,18 @@
 import { NutritionInformation } from "../../molecules";
+import "./recipeInfo.scss";
 
 const RecipeInfo = () => {
   return (
-    <section className="recipePage__info">
-      <div className="recipePage__container">
+    <section className="recipeInfo">
+      <div className="recipeInfo__container">
         <img
-          className="recipePage__mainImage"
+          className="recipeInfo__mainImage"
           src="/assets/RecipeImage.png"
           alt="Main Image"
         />
         <NutritionInformation />
       </div>
-      <p className="recipePage__paragraph">
+      <p className="recipeInfo__paragraph">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
         veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea

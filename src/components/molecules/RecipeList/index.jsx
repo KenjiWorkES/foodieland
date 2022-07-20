@@ -25,7 +25,7 @@ const ITEMS_ARRAY = [
 
 const RecipeList = () => {
   return (
-    <ul className="recipePage__list">
+    <ul className="recipeHeader__list">
       {ITEMS_ARRAY.map((item) => (
         <RecipeItem
           image={item.image}

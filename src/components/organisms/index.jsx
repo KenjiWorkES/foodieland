@@ -12,3 +12,4 @@ export { default as LearnMore } from "./LearnMore";
 export { default as InstagramSection } from "./InstagramSection";
 export { default as HomeRecipesSlider } from "./HomeRecipesSlider";
 export { default as RecipeHeader } from "./RecipeHeader";
+export { default as RecipeInfo } from "./RecipeInfo";

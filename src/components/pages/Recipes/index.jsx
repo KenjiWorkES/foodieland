@@ -4,6 +4,7 @@ import {
   Slider,
   NewsletterForm,
   RecipeHeader,
+  RecipeInfo,
 } from "../../organisms";
 
 const RecipesPage = () => {
@@ -12,6 +13,7 @@ const RecipesPage = () => {
       <Navbar />
       <main className="recipePage">
         <RecipeHeader />
+        <RecipeInfo />
         <NewsletterForm />
         <Slider length="4" title="You may like these recipe too" />
       </main>
