@@ -1,4 +1,10 @@
 .recipePage {
   &__list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: center;
   }
 }

@@ -1,16 +1,48 @@
+@use "/public/styles/variables" as *;
+
 .recipePage {
   &__item {
+    &:not(:last-child) {
+      border-right: 1px solid rgba($colorDark, 0.1);
+    }
+    padding: 0 1rem;
+    width: 30%;
+
+    &:first-child {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      margin-bottom: 2rem;
+      margin-top: 2rem;
+    }
   }
 
   &__figure {
+    display: flex;
+    align-items: center;
+  }
+
+  &__icon {
+    margin-right: 1rem;
   }
 
   &__itemText {
   }
 
   &__itemTitle {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: $colorDark;
+    line-height: 1.5rem;
+    letter-spacing: -2%;
+    margin-bottom: 0.3rem;
   }
 
   &__itemSub {
+    font-size: 1rem;
+    font-weight: $fontWeightBody;
+    color: rgba($colorDark, 0.6);
+    line-height: 1.73em;
+    letter-spacing: -2%;
   }
 }
