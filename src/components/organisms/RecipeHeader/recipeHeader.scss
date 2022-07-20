@@ -1,7 +1,16 @@
+@use "/public/styles/variables" as *;
+
 .recipePage {
   &__header {
+    font-family: $inter;
   }
 
   &__title {
+    font-size: 4.5rem;
+    text-align: center;
+    line-height: 6rem;
+    letter-spacing: -4%;
+    color: $colorDark;
+    font-weight: $fontWeightTitle;
   }
 }
