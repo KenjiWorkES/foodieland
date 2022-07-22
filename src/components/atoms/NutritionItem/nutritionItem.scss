@@ -7,6 +7,18 @@
     flex-direction: column;
     &:not(:last-child) {
       border-right: 1px solid rgba($colorDark, 0.1);
+
+      @media only screen and (min-width: $desktop) {
+        border-bottom: 1px solid rgba($colorDark, 0.1);
+        border-right: none;
+      }
+    }
+
+    @media only screen and (min-width: $desktop) {
+      flex-direction: row;
+      justify-content: space-between;
+      padding-right: 0;
+      padding-top: 1rem;
     }
   }
 
@@ -18,6 +30,11 @@
     letter-spacing: -4%;
     color: rgba($colorDark, 0.6);
     margin-bottom: 0.5rem;
+
+    @media only screen and (min-width: $desktop) {
+      font-size: 1.6rem;
+      line-height: 2.2rem;
+    }
   }
 
   &__value {
@@ -27,5 +44,9 @@
     font-weight: 500;
     letter-spacing: -4%;
     color: $colorDark;
+    @media only screen and (min-width: $desktop) {
+      font-size: 1.6rem;
+      line-height: 2.2rem;
+    }
   }
 }

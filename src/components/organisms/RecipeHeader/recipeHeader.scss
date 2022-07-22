@@ -3,6 +3,7 @@
 .recipeHeader {
   font-family: $inter;
   margin-bottom: 2rem;
+  max-width: 144rem;
 
   &__title {
     font-size: 4.5rem;
@@ -29,7 +30,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1440;
-    margin: 0 2rem 6rem;
+    margin: 0 auto 6rem;
   }
 }

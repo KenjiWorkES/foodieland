@@ -2,10 +2,29 @@
 
 .recipeInfo {
   padding: 0 1.5rem;
+  max-width: 144rem;
+  margin: 0 auto;
+
+  &__container {
+    @media only screen and (min-width: $desktop) {
+      display: flex;
+      margin-bottom: 8rem;
+    }
+  }
 
   &__mainImage {
     width: 100%;
     margin-bottom: 1.5rem;
+
+    @media only screen and (min-width: $desktop) {
+      width: 60%;
+      margin-right: 4rem;
+    }
+
+    @media only screen and (min-width: $desktop-xm) {
+      width: 80%;
+      margin-right: 5rem;
+    }
   }
 
   &__paragraph {
@@ -16,5 +35,11 @@
     line-height: 2rem;
     color: rgba($colorDark, 0.6);
     margin-bottom: 2rem;
+
+    @media only screen and (min-width: $desktop) {
+      font-size: 1.6rem;
+      line-height: 2.6rem;
+      text-align: left;
+    }
   }
 }
