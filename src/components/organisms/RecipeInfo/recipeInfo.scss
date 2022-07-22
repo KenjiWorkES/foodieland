@@ -1,7 +1,20 @@
+@use "/public/styles/variables" as *;
+
 .recipeInfo {
   padding: 0 1.5rem;
 
   &__mainImage {
     width: 100%;
+    margin-bottom: 1.5rem;
+  }
+
+  &__paragraph {
+    font-family: $inter;
+    text-align: center;
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    color: rgba($colorDark, 0.6);
+    margin-bottom: 2rem;
   }
 }
