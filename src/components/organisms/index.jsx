@@ -13,3 +13,4 @@ export { default as InstagramSection } from "./InstagramSection";
 export { default as HomeRecipesSlider } from "./HomeRecipesSlider";
 export { default as RecipeHeader } from "./RecipeHeader";
 export { default as RecipeInfo } from "./RecipeInfo";
+export { default as Ingredients } from "./Ingredients";
