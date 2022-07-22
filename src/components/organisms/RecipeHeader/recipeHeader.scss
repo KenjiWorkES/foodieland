@@ -11,11 +11,25 @@
     letter-spacing: -4%;
     color: $colorDark;
     font-weight: $fontWeightTitle;
+
+    @media only screen and (min-width: $desktop-x) {
+      font-size: 6.4rem;
+      text-align: left;
+      line-height: 7.7rem;
+    }
   }
 
   &__actions {
     display: flex;
     justify-content: center;
     margin-top: 2rem;
+  }
+
+  @media only screen and (min-width: $desktop) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1440;
+    margin: 0 2rem 6rem;
   }
 }

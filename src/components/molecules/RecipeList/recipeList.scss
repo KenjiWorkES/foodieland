@@ -1,3 +1,5 @@
+@use "/public/styles/variables" as *;
+
 .recipeHeader {
   &__list {
     list-style: none;
@@ -6,5 +8,11 @@
     flex-wrap: wrap;
     align-content: space-around;
     justify-content: center;
+
+    @media only screen and (min-width: $desktop) {
+      justify-content: flex-start;
+      flex-wrap: nowrap;
+      margin-top: 2rem;
+    }
   }
 }

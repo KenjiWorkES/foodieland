@@ -5,8 +5,11 @@ import "./recipeHeader.scss";
 const RecipeHeader = () => {
   return (
     <section className="recipeHeader">
-      <h1 className="recipeHeader__title">Health Japanese Fried Rice</h1>
-      <RecipeList />
+      <div className="recipeHeader__info">
+        <h1 className="recipeHeader__title">Health Japanese Fried Rice</h1>
+        <RecipeList />
+      </div>
+
       <div className="recipeHeader__actions">
         <CircularButton label="print" image="/assets/printer.svg" />
         <CircularButton label="share" image="/assets/share.svg" />
