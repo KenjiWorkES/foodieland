@@ -2,6 +2,7 @@
 
 .recipeHeader {
   font-family: $inter;
+  margin-bottom: 2rem;
 
   &__title {
     font-size: 4.5rem;
@@ -10,5 +11,11 @@
     letter-spacing: -4%;
     color: $colorDark;
     font-weight: $fontWeightTitle;
+  }
+
+  &__actions {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
   }
 }
