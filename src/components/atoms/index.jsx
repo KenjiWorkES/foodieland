@@ -21,3 +21,4 @@ export { default as Button } from "./Button";
 export { default as CircleAvatar } from "./CircleAvatar";
 export { default as RecipeItem } from "./RecipeItem";
 export { default as NutritionItem } from "./NutritionItem";
+export { default as CircularButton } from "./CircularButton";

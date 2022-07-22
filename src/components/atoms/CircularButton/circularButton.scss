@@ -1,0 +1,30 @@
+@use "/public/styles/variables" as *;
+
+.circularButton {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  &__action {
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    display: flex;
+    background-color: $colorLightBlue;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+
+  &__image {
+  }
+
+  &__label {
+    font-family: $inter;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    text-transform: uppercase;
+    color: $colorDark;
+    font-weight: 500;
+  }
+}
